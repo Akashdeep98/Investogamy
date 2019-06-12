@@ -1,0 +1,61 @@
+body{
+  overflow-x: hidden;
+}
+
+.tick1{
+  size: 2px; margin-left: -27vw;
+}
+
+.tick2{
+size: 2px;margin-left: -21vw;
+}
+
+.tick3{
+  size: 2px;margin-left: -17vw;
+}
+
+.image1{
+  margin-left: -10vw
+}
+
+.b1{
+  margin-left: -15vw;
+  width: 15vw;
+}
+
+.b2{
+  position: absolute;
+  margin-left: 5vw;
+  width: 15vw;
+}
+
+@media(max-width: 420px) {
+  .tick1{
+  size: 2px; margin-left: 0vw;
+}
+
+.tick2{
+size: 2px;margin-left: 0vw;
+}
+
+.tick3{
+  size: 2px;margin-left: 0vw;
+}
+.image1{
+  width: 80vw;
+  margin-left: 5vw;
+  margin-top: 5vh
+}
+.b1{
+  margin-left: -30vw;
+  width: 25vw;
+  margin-top: -8vh;
+}
+
+.b2{
+  position: absolute;
+  margin-left: 5vw;
+  width: 25vw;
+  margin-top: -5vh;
+}
+}
